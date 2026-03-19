@@ -1,3 +1,6 @@
+# Jocher, G., Qiu, J., & Chaurasia, A. (2023). Ultralytics YOLO (Version 8.0.0)
+# [Software]. Ultralytics. https://ultralytics.com
+
 import cv2
 import json
 import csv
@@ -185,3 +188,5 @@ if __name__ == "__main__":
         process_video(args.video, args.output, model, args.sample)
     else:
         print("Use --video or --folder. Use --help for options.")
+
+        

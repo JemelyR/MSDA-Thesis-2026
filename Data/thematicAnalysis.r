@@ -182,3 +182,13 @@ stargazer(
 )
 
 message("Done — LaTeX tables saved to results/")
+
+
+# Linear Probability Models estimated by OLS following:
+# Angrist, J. D., & Pischke, J. S. (2009). Mostly Harmless Econometrics.
+#   Princeton University Press.
+# Gomila, R. (2021). Logistic or linear? Estimating causal effects of
+#   experimental treatments on binary outcomes using regression analysis.
+#   Journal of Experimental Psychology: General, 150(4), 700-709.
+# HC2 robust standard errors via sandwich::vcovHC (Zeileis, 2004,
+#   Journal of Statistical Software)

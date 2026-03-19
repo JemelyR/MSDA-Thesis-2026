@@ -59,13 +59,8 @@ d.photo %>%
     y = "Proportion", x = NULL
   )
 
-# ── MODELS ────────────────────────────────────────────────────────────────────
-# Model 1: Group only
-# Model 2: Group + VR experience/enjoyment
-# Model 3: Group + pre-study empathy subscales
-# Model 4: Group + VR + pre-study empathy (full)
-# HC2 robust SEs via sandwich::vcovHC
-# ─────────────────────────────────────────────────────────────────────────────
+# ── MODELS ────────────────────────
+
 
 robust_se <- function(model) sqrt(diag(vcovHC(model, type = "HC2")))
 
@@ -83,7 +78,7 @@ for (outcome in photo_vars) {
   all_models[[paste0(outcome, "_m4")]] <- lm(f4, data = d.photo)
 }
 
-# ── ONE LATEX TABLE PER OUTCOME ───────────────────────────────────────────────
+# ── ONE PER OUTCOME ────────────────────────
 
 outcome_titles <- c(
   attempted_pickup  = "Attempted to Pick Up Photo",
@@ -136,7 +131,7 @@ for (outcome in photo_vars) {
   message("Saved: results/lpm_", outcome, ".tex")
 }
 
-# ── COMBINED TABLE (all outcomes, all four models) ────────────────────────────
+# ── COMBINED ────────────────────────
 
 all_model_list <- unlist(
   lapply(photo_vars, function(o) list(
@@ -180,3 +175,13 @@ stargazer(
 
 message("Done. Individual tables: results/lpm_<outcome>.tex")
 message("Combined table:          results/lpm_all_outcomes_combined.tex")
+
+
+# Linear Probability Models estimated by OLS following:
+# Angrist, J. D., & Pischke, J. S. (2009). Mostly Harmless Econometrics.
+#   Princeton University Press.
+# Gomila, R. (2021). Logistic or linear? Estimating causal effects of
+#   experimental treatments on binary outcomes using regression analysis.
+#   Journal of Experimental Psychology: General, 150(4), 700-709.
+# HC2 robust standard errors via sandwich::vcovHC (Zeileis, 2004,
+#   Journal of Statistical Software)
