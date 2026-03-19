@@ -27,9 +27,9 @@ By selecting "Next" you indicate that you have read this information and agree t
 
 **4. How much experience do you have with Virtual Reality, if any?**
 
-| No experience at all | | | | A lot of experience |
+| No experience at all | | | | | A lot of experience |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2 | 3 | 4 | 5 |
+| 1 | 2 | 3 | 4 | 5 | |
 
 **5. How much did you enjoy said experience?** *(Do not answer if you reported no experience)*
 
@@ -85,3 +85,4 @@ Please rate each statement A–E:
 ---
 
 *This form was created inside of Dartmouth College.*
+
