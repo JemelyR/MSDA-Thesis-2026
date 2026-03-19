@@ -69,7 +69,7 @@ for (outcome in theme_vars) {
   all_models[[paste0(outcome, "_m4")]] <- lm(f4, data = d.themes)
 }
 
-# ── ONE LATEX TABLE PER THEME ──────────────
+# ── PER THEME ──────────────
 for (i in seq_along(theme_vars)) {
   outcome <- theme_vars[i]
   label   <- theme_labels[i]
@@ -113,7 +113,7 @@ for (i in seq_along(theme_vars)) {
   message("Saved: results/lpm_", outcome, ".tex")
 }
 
-# ── COMBINED TABLE (all themes, all four models) ──────────────
+# ── COMBINED TABLE ──────────────
 all_model_list <- unlist(
   lapply(theme_vars, function(o) list(
     all_models[[paste0(o, "_m1")]],
@@ -154,7 +154,7 @@ stargazer(
   notes.align  = "l"
 )
 
-# ── GROUP ONLY TABLE (all themes, one column each) ──────────────
+# ── GROUP ONLY  ──────────────
 group_only_models <- lapply(theme_vars, function(v) all_models[[paste0(v, "_m1")]])
 group_only_ses    <- lapply(group_only_models, robust_se)
 
