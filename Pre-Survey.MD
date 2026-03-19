@@ -27,7 +27,7 @@ By selecting "Next" you indicate that you have read this information and agree t
 
 **4. How much experience do you have with Virtual Reality, if any?**
 
-| No experience at all | | | | | A lot of experience |
+| No experience at all | | | | A lot of experience |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2 | 3 | 4 | 5 | |
 
