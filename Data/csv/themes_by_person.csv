@@ -1,0 +1,59 @@
+Participant,Group,"T1
+Negotiating Connection With Character","T2
+Frustration at Being Unable to Interact","T3
+Specificity in Story Items","T4
+Describing Character's Emotional State","T5
+Describing Aesthetics of Scene","T6
+Building the Backstory"
+T02J,Test,✓,✓,✓,,✓,✓
+T04J,Test,✓,✓,✓,✓,✓,✓
+T05J,Test,✓,✓,✓,✓,✓,
+T06J,Test,✓,✓,✓,,✓,✓
+T08J,Test,✓,✓,✓,✓,✓,
+T09J,Test,✓,,✓,✓,✓,✓
+T13J,Test,,,✓,✓,✓,✓
+T16J,Test,✓,,✓,✓,✓,✓
+T17J,Test,✓,✓,✓,✓,✓,✓
+T18J,Test,,✓,✓,✓,✓,✓
+T20J,Test,✓,✓,✓,✓,,
+T22J,Test,✓,,✓,✓,✓,
+T24J,Test,,,✓,✓,✓,✓
+T26J,Test,✓,✓,✓,✓,✓,
+T27J,Test,✓,,✓,✓,✓,✓
+T29J,Test,,✓,✓,✓,✓,✓
+T31J,Test,✓,✓,✓,,,
+T33J,Test,,,✓,✓,✓,
+T35J,Test,,✓,✓,✓,,
+T37J,Test,✓,✓,✓,,✓,✓
+T39J,Test,✓,✓,✓,✓,✓,
+T41J,Test,✓,,✓,✓,✓,
+T43J,Test,✓,✓,✓,✓,✓,✓
+T45J,Test,✓,✓,✓,✓,,✓
+T47J,Test,✓,✓,✓,✓,✓,✓
+T49J,Test,✓,,✓,✓,✓,
+N01J,Control,,,✓,✓,✓,
+N01E,Control,,,✓,✓,✓,✓
+N02E,Control,,,✓,✓,✓,✓
+N03J,Control,,,✓,✓,✓,✓
+N07J,Control,,✓,✓,✓,✓,
+N10J,Control,,✓,✓,✓,✓,✓
+N11J,Control,,,,✓,✓,
+N12J,Control,,,✓,✓,,✓
+N14J,Control,,,✓,✓,,✓
+N15J,Control,,,✓,✓,✓,✓
+N19J,Control,✓,✓,✓,,✓,✓
+N21J,Control,,✓,✓,✓,,
+N23J,Control,,✓,✓,✓,✓,✓
+N25J,Control,✓,✓,,✓,✓,✓
+N28J,Control,,,✓,✓,✓,✓
+N30J,Control,✓,✓,✓,✓,✓,✓
+N32J,Control,✓,✓,✓,✓,✓,✓
+N34J,Control,✓,✓,,✓,✓,✓
+N36J,Control,✓,,,✓,,
+N38J,Control,✓,✓,,✓,✓,
+N40J,Control,✓,✓,,✓,,
+N42J,Control,,,✓,✓,✓,✓
+N44J,Control,✓,✓,✓,✓,,✓
+N46J,Control,,✓,✓,✓,✓,✓
+N48J,Control,✓,✓,✓,✓,✓,✓
+N50J,Control,✓,,,✓,✓,
