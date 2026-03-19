@@ -31,6 +31,10 @@ By selecting "Next" you indicate that you have read this information and agree t
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2 | 3 | 4 | 5 |
 
+| No experience at all | B | C | D | A lot of experience |
+|:---:|:---:|:---:|:---:|:---:|
+| 1 | | | | 5 |
+
 **5. How much did you enjoy said experience?** *(Do not answer if you reported no experience)*
 
 | Did not enjoy it at all | | | | | | | | | Extremely enjoyed it |
