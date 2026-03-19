@@ -433,7 +433,7 @@ stargazer(
 
 # ── VIDEO ANALYSIS ───────────────────────────────────────────
 
-batch <- read.csv("output/batch_summary.csv")
+batch <- read.csv("csv/video_batch_summary.csv")
 
 # Merge with participant scores on ID
 d.video <- merge(d, batch, by.x = "Participant.ID", by.y = "participant")

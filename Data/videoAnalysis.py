@@ -158,7 +158,7 @@ def batch_process(folder, output_dir, model, sample_every=1):
             print(f"ERROR: {Path(v).stem} — {e}")
 
     if all_summaries:
-        batch_csv = os.path.join(output_dir, "vide_batch_summary.csv")
+        batch_csv = os.path.join(output_dir, "video_batch_summary.csv")
         with open(batch_csv, "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=list(all_summaries[0].keys()))
             writer.writeheader()
